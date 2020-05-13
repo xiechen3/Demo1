@@ -6,3 +6,5 @@ git init   //建库 建在当前路径下
 git add  文件名 //添加文件到库  文件必须在库的目录下
 git commit   -m"备注"// 提交到库 
 
+git diff   //查看修改内容
+git status //查看当前库状态
