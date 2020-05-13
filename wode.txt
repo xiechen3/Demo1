@@ -1,0 +1,8 @@
+git config --global user.name "chen"  //用户名
+git config --global user.email "邮箱地址" //邮箱地址
+
+mkdir 文件名 //建文件
+git init   //建库 建在当前路径下
+git add  文件名 //添加文件到库  文件必须在库的目录下
+git commit   -m"备注"// 提交到库 
+
