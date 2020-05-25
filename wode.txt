@@ -8,3 +8,9 @@ git commit   -m"备注"// 提交到库
 
 git diff   //查看修改内容
 git status //查看当前库状态
+
+git log  //查看修改日志
+git reset --hard HEAD^//回退  一个^代表一个回退次数
+                                     //回退100次    HEAD~100
+                                      //head +commit ID 回退到指定位置
+git reflog  //查询每次操作的commit id
